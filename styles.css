@@ -1,0 +1,175 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.nav-area li a :hover{
+    background: #fff;
+    color: #333;
+    font-size: large;
+}
+.logo img{
+    width: 160px;
+    float: left;
+    border-image: auto;
+    
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+.inner header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper{
+    width: auto;
+    margin: auto;
+}
+p{
+    size-adjust: auto;
+    text-size-adjust: 200px;
+}
+h1 {
+    font-size: 80px;
+}
+h2{
+    font-size: 50px;
+    line-height: 2;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    font-size: 500%;
+    padding: 200px;
+    background: url('background\ 1.jpeg') center/cover;
+    color: #fff;
+    
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+.text {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 200px;
+    border-radius: 10px;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f9f9f9;
+    padding: 100px;
+    text-align: center;
+}
+
+/* Video Section Styles */
+.video {
+    padding: 60px;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-container2 {
+    position: relative;
+    padding: 200px;
+    padding-bottom: 56.5%; /* 16:9 aspect ratio */
+    height: 0;
+    background-color: #101010;  
+    background-size: auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 60px;
+}
+
+.contact img {
+    max-width: 7%;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
